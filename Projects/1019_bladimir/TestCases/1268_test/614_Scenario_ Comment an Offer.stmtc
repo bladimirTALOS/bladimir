@@ -9,7 +9,7 @@
     "DataSheet": null,
     "TestSteps": [
       {
-        "TempId": 5650,
+        "TempId": 5678,
         "StepNumber": 1,
         "Description": "When clicks on the Offers tab",
         "Locator": "LocatorNeeded",
@@ -31,7 +31,7 @@
         "Modified": null
       },
       {
-        "TempId": 5651,
+        "TempId": 5679,
         "StepNumber": 2,
         "Description": "And select the summer vacation offer",
         "Locator": "",
@@ -53,7 +53,7 @@
         "Modified": null
       },
       {
-        "TempId": 5652,
+        "TempId": 5680,
         "StepNumber": 3,
         "Description": "Then the summer vacation page must appear",
         "Locator": "",
@@ -75,7 +75,7 @@
         "Modified": null
       },
       {
-        "TempId": 5653,
+        "TempId": 5681,
         "StepNumber": 4,
         "Description": "And type a name in the name field",
         "Locator": "LocatorNeeded",
@@ -97,7 +97,7 @@
         "Modified": null
       },
       {
-        "TempId": 5654,
+        "TempId": 5682,
         "StepNumber": 5,
         "Description": "And type a phone in the phone field",
         "Locator": "LocatorNeeded",
@@ -119,11 +119,11 @@
         "Modified": null
       },
       {
-        "TempId": 5655,
+        "TempId": 5683,
         "StepNumber": 6,
         "Description": "And type a comment in the comment field",
         "Locator": "LocatorNeeded",
-        "Value": "",
+        "Value": null,
         "Screenshot": false,
         "StepSectionId": 2,
         "ObjectDictionaryId": null,
@@ -141,7 +141,7 @@
         "Modified": null
       },
       {
-        "TempId": 5656,
+        "TempId": 5684,
         "StepNumber": 7,
         "Description": "And Click the contact button",
         "Locator": "LocatorNeeded",
@@ -163,7 +163,7 @@
         "Modified": null
       },
       {
-        "TempId": 5657,
+        "TempId": 5685,
         "StepNumber": 8,
         "Description": "And Wait \"3\"",
         "Locator": null,
@@ -177,28 +177,6 @@
         "ComponentId": null,
         "CustomActionId": null,
         "LocatorTypeId": null,
-        "Parameters": [],
-        "UserSays": null,
-        "BotSays": null,
-        "Name": null,
-        "Created": null,
-        "Modified": null
-      },
-      {
-        "TempId": 5649,
-        "StepNumber": 9,
-        "Description": "And Wait \"5\"",
-        "Locator": "LocatorNeeded",
-        "Value": "5",
-        "Screenshot": false,
-        "StepSectionId": 2,
-        "ObjectDictionaryId": null,
-        "SkipStep": false,
-        "Status": "Pending",
-        "ActionId": 43,
-        "ComponentId": null,
-        "CustomActionId": null,
-        "LocatorTypeId": 4,
         "Parameters": [],
         "UserSays": null,
         "BotSays": null,
@@ -223,7 +201,7 @@
   {
     "TempId": 157,
     "Name": "Prueba Import TALOS - PRUEBA 11/21",
-    "Code": "Feature: Actions with login background\n   Background: Successful sign up\n      Given the user goes to \"https://www.phptravels.net/\"\n      When clicks on myAccount button\n      And Click sign up option\n      And fill the name field\n      And fill the last name field\n      And fill the email field with uniques values\n      And fill the password field\n      And fill the confirm password field\n      And Clicks on the sign up button\n      Then The account page must be displayed\n\n   Scenario Outline: Search several Hotels\n      And execute bg_Login_feature component\n      When clicks on Hotel tab\n      And type a \"<City>\"\n      And wait until an option appear\n      And Select that option\n      Then click on the button search\n\n      Examples:\n      |DT_City  |\n      |Saltillo  |\n      |Monterrey  |\n      |Acapulco  |\n      |Guadalajara  |\n\n   Scenario: Comment an Offer\n      When clicks on the Offers tab\n      And select the summer vacation offer\n      Then the summer vacation page must appear\n      And type a name in the name field\n      And type a phone in the phone field\n      And type a comment in the comment field\n      And Click the contact button\n      And Wait \"3\"\n      And Wait \"5\"\n\n   Scenario:searches\n      Given Navigate \"google.com\"\n      And Wait \"3\"\n      Given Navigate \"google.com\"\n      And Navigate \"https://opensource-demo.orangehrmlive.com/index.php\"\n      And Type \"Admin6\"\n      And Wait \"3\"\n",
+    "Code": "Feature: Actions with login background\n   Background: Successful sign up\n      Given the user goes to \"https://www.phptravels.net/\"\n      When clicks on myAccount button\n      And Click sign up option\n      And fill the name field\n      And fill the last name field\n      And fill the email field with uniques values\n      And fill the password field\n      And fill the confirm password field\n      And Clicks on the sign up button\n      Then The account page must be displayed\n\n   Scenario Outline: Search several Hotels\n      And execute bg_Login_feature component\n      When clicks on Hotel tab\n      And type a \"<City>\"\n      And wait until an option appear\n      And Select that option\n      Then click on the button search\n\n      Examples:\n      |DT_City  |\n      |Saltillo  |\n      |Monterrey  |\n      |Acapulco  |\n      |Guadalajara  |\n\n   Scenario: Comment an Offer\n      When clicks on the Offers tab\n      And select the summer vacation offer\n      Then the summer vacation page must appear\n      And type a name in the name field\n      And type a phone in the phone field\n      And type a comment in the comment field\n      And Click the contact button\n      And Wait \"3\"\n\n   Scenario:searches\n      Given Navigate \"google.com\"\n      And Wait \"3\"\n      Given Navigate \"google.com\"\n      And Navigate \"https://opensource-demo.orangehrmlive.com/index.php\"\n      And Type \"Admin6\"\n      And Wait \"3\"\n",
     "FolderId": 1268,
     "BGComponentId": null,
     "OriginalScript": "Feature: Actions with login background\n   Background: Successful sign up\n      Given the user goes to \"https://www.phptravels.net/\"\n      When clicks on myAccount button\n      And Click sign up option\n      And fill the name field\n      And fill the last name field\n      And fill the email field with uniques values\n      And fill the password field\n      And fill the confirm password field\n      And Clicks on the sign up button\n      Then The account page must be displayed\n\n   Scenario Outline: Search several Hotels\n      When clicks on Hotel tab\n      And type a \"<City>\"\n      And wait until an option appear\n      And Select that option\n      Then click on the button search\n\n      Examples:\n      |DT_City  |\n      |Saltillo  |\n      |Monterrey  |\n      |Acapulco  |\n      |Guadalajara  |\n\n   Scenario: Comment an Offer\n      When clicks on the Offers tab\n      And select the summer vacation offer\n      Then the summer vacation page must appear\n      And type a name in the name field\n      And type a phone in the phone field\n      And type a comment in the comment field\n      And Click the contact button\n",
