@@ -9,7 +9,7 @@
     "DataSheet": null,
     "TestSteps": [
       {
-        "TempId": 6267,
+        "TempId": 6283,
         "StepNumber": 1,
         "Description": null,
         "Locator": null,
@@ -31,7 +31,7 @@
         "Modified": null
       },
       {
-        "TempId": 6268,
+        "TempId": 6284,
         "StepNumber": 2,
         "Description": "text_txtUsername",
         "Locator": "<INPUT id=txtUsername name=txtUsername jQuery172016326574616305978=\"5\">",
@@ -53,7 +53,7 @@
         "Modified": null
       },
       {
-        "TempId": 6269,
+        "TempId": 6285,
         "StepNumber": 3,
         "Description": "password_txtPassword",
         "Locator": "<INPUT id=txtPassword type=password value=\"\" name=txtPassword jQuery172016326574616305978=\"6\">",
@@ -75,7 +75,7 @@
         "Modified": null
       },
       {
-        "TempId": 6270,
+        "TempId": 6286,
         "StepNumber": 4,
         "Description": "submit_Submit",
         "Locator": "<INPUT id=btnLogin class=button type=submit value=LOGIN name=Submit>",
@@ -89,6 +89,28 @@
         "ComponentId": null,
         "CustomActionId": null,
         "LocatorTypeId": 9,
+        "Parameters": [],
+        "UserSays": null,
+        "BotSays": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      },
+      {
+        "TempId": 6282,
+        "StepNumber": 5,
+        "Description": null,
+        "Locator": null,
+        "Value": "2",
+        "Screenshot": false,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "SkipStep": false,
+        "Status": "Pending",
+        "ActionId": 47,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "LocatorTypeId": null,
         "Parameters": [],
         "UserSays": null,
         "BotSays": null,
