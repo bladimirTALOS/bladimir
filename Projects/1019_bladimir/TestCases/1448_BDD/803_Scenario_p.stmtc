@@ -1,0 +1,66 @@
+[
+  {
+    "TempId": 803,
+    "AUT": "",
+    "Description": "",
+    "StatusKey": "NEW",
+    "isMobile": false,
+    "TestCaseType": 4,
+    "DataSheet": null,
+    "TestSteps": [
+      {
+        "TempId": 6435,
+        "StepNumber": 1,
+        "Description": "Given Navigate",
+        "Locator": null,
+        "Value": null,
+        "Screenshot": false,
+        "StepSectionId": 2,
+        "ObjectDictionaryId": null,
+        "SkipStep": false,
+        "Status": "Pending",
+        "ActionId": 27,
+        "ComponentId": null,
+        "CustomActionId": null,
+        "LocatorTypeId": null,
+        "Parameters": [],
+        "UserSays": null,
+        "BotSays": null,
+        "Name": null,
+        "Created": null,
+        "Modified": null
+      }
+    ],
+    "Scenario": {
+      "TempId": 483,
+      "Scenario_Number": 1,
+      "TC_Id": 803,
+      "GherkinFile_Id": 320,
+      "Name": null,
+      "Created": null,
+      "Modified": null
+    },
+    "Name": "Scenario_p",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 320,
+    "Name": "Feature: BDD",
+    "Code": "Feature: BDD\n\n   Scenario:p\n      Given Navigate\n",
+    "FolderId": 1448,
+    "BGComponentId": null,
+    "OriginalScript": "Feature: BDD\n\n   Scenario:p\n      Given ....\n",
+    "Created": null,
+    "Modified": null
+  },
+  {
+    "TempId": 483,
+    "Scenario_Number": 1,
+    "TC_Id": 803,
+    "GherkinFile_Id": 320,
+    "Name": null,
+    "Created": null,
+    "Modified": null
+  }
+]
